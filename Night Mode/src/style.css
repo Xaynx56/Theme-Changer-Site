@@ -1,0 +1,45 @@
+:root {
+    --bg-color: #f2f2f2;
+    --text-color: #333;
+    --btn-bg: #333;
+    --btn-color: #fff;
+    --transition-time: 0.4s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color var(--transition-time), color var(--transition-time);
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 15%;
+  }
+  
+  button {
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color var(--transition-time);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f2f2f2;
+    --btn-bg: #f2f2f2;
+    --btn-color: #1e1e1e;
+  }
+  
